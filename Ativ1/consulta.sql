@@ -1,1 +1,1 @@
-SELECT * FROM biblioteca_jogos;
+SELECT * FROM biblioteca_jogos WHERE nome != 'Fortnite'
