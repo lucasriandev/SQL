@@ -1,1 +1,1 @@
-SELECT * FROM biblioteca_jogos WHERE nome != 'Fortnite'
+SELECT nome, preco FROM biblioteca_jogos WHERE preco > 100 AND preco < 200;
