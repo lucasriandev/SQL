@@ -1,1 +1,1 @@
-SELECT nome, preco FROM biblioteca_jogos WHERE preco > 100 AND preco < 200;
+SELECT genero, COUNT(*) AS qtd FROM biblioteca_jogos GROUP BY genero HAVING COUNT(*) > 1
