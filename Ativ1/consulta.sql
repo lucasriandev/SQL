@@ -1,1 +1,3 @@
-SELECT genero, COUNT(*) AS qtd FROM biblioteca_jogos GROUP BY genero HAVING COUNT(*) > 1
+SELECT j.nome, p.nome_plataforma
+FROM biblioteca_jogos j
+JOIN plataformas p ON j.plataforma_id = p.id;
