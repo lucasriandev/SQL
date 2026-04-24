@@ -1,3 +1,4 @@
+/*
 -- Apaga as tabelas se elas já existirem para evitar erro de "já existe"
 DROP TABLE IF EXISTS biblioteca_jogos;
 DROP TABLE IF EXISTS plataformas;
@@ -31,3 +32,4 @@ INSERT INTO biblioteca_jogos (nome, genero, horas_jogadas, preco, plataforma_id)
 ('HITMAN World of Assassination', 'Stealth', 85, 200.00, 1),
 ('Fortnite', 'Battle Royale', 300, 0.00, 2),
 ('Tom Clancy''s Ghost Recon Breakpoint', 'Tiro tático', 60, 120.00, 3);
+*/
