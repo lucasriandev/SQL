@@ -12,8 +12,8 @@
     );
 
     INSERT INTO treinadores(nome_treinador)
-    VALUES ('ASH')
+    VALUES ('ASH');
 
     INSERT INTO pokemons(nomePokemon, tipo, treinador_id)
-    VALUES ('Pikachu', 'Eletrico', 1)
+    VALUES ('Pikachu', 'Eletrico', 1);
 
