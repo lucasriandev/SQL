@@ -1,4 +1,4 @@
-SELECT animes.nome_anime, personagem.personagemAnime
-FROM animes
-JOIN personagem
-ON animes.id = personagem.anime_id;
+SELECT a.nome_anime, p.personagemAnime
+FROM animes a
+JOIN personagem p
+ON a.id = p.anime_id;
