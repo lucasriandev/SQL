@@ -1,4 +1,4 @@
-SELECT a.nome_anime, p.personagemAnime
-FROM animes a
+SELECT n.nome_anime, p.personagemAnime
+FROM animes n
 JOIN personagem p
-ON a.id = p.anime_id;
+ON n.id = p.anime_id

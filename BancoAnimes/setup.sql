@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS personagem;
+DROP TABLE IF EXISTS animes;
+
 CREATE TABLE animes(
     id SERIAL PRIMARY KEY,
     nome_anime  VARCHAR(50)
@@ -16,3 +19,6 @@ VALUES ('BOKU NO HERO');
 
 INSERT INTO personagem(personagemAnime, anime_id)
 VALUES ('ALL MIGTH', 1);
+
+INSERT INTO personagem(personagemAnime, anime_id)
+VALUES('DEKU', 1), ('BAKUGO', 1);
