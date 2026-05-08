@@ -17,6 +17,9 @@ CREATE TABLE personagem(
 INSERT INTO animes(nome_anime)
 VALUES ('BOKU NO HERO');
 
+INSERT INTO animes(nome_anime)
+VALUES ('NARUTO');
+
 INSERT INTO personagem(personagemAnime, anime_id)
 VALUES ('ALL MIGTH', 1);
 
