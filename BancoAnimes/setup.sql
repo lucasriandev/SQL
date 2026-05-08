@@ -21,6 +21,9 @@ INSERT INTO animes(nome_anime)
 VALUES ('NARUTO');
 
 INSERT INTO personagem(personagemAnime, anime_id)
+VALUES ('MINATO', 2), ('NARUTO', 2);
+
+INSERT INTO personagem(personagemAnime, anime_id)
 VALUES ('ALL MIGTH', 1);
 
 INSERT INTO personagem(personagemAnime, anime_id)
