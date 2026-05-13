@@ -1,4 +1,6 @@
-SELECT a.nome_anime, p.personagemAnime
-FROM animes a 
-LEFT JOIN personagem p ON a.id = p.anime_id
-LIMIT 1;
+SELECT a.nome_anime, COUNT(p.id) AS total_personagens
+FROM animes a
+JOIN personagem p 
+ON a.id = p.anime_id
+GROUP BY a.nome_anime
+HAVING COUNT(p.id) > 2;
