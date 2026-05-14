@@ -18,13 +18,13 @@ INSERT INTO animes(nome_anime)
 VALUES ('BOKU NO HERO');
 
 INSERT INTO animes(nome_anime)
-VALUES ('NARUTO');
+VALUES ('NARUTO'), ('ONE PIECE');
 
 INSERT INTO personagem(personagemAnime, anime_id)
-VALUES ('MINATO', 2), ('NARUTO', 2), ('SUSUKE', 2)
+VALUES ('MINATO', 2), ('NARUTO', 2), ('SUSUKE', 2), ('KAKASHI', 2);
 
 INSERT INTO personagem(personagemAnime, anime_id)
-VALUES ('ALL MIGTH', 1), ('ENDEAVOR', 1), ('ERASER', 1)
+VALUES ('ALL MIGTH', 1), ('ENDEAVOR', 1), ('ERASER', 1);
 
 INSERT INTO personagem(personagemAnime, anime_id)
-VALUES('DEKU', 1), ('BAKUGO', 1), ('TODOROKI', 1)
+VALUES('DEKU', 1), ('BAKUGO', 1), ('TODOROKI', 1);
